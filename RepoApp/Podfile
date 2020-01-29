@@ -8,4 +8,5 @@ target 'RepoApp' do
   # Pods for RepoApp
 pod 'Firebase'
 pod 'Firebase/Analytics'
+pod 'RealmSwift'
 end

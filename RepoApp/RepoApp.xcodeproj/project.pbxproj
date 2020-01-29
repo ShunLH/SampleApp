@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		EFEE332723E17A6500D6A180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEE332623E17A6500D6A180 /* Assets.xcassets */; };
 		EFEE332A23E17A6500D6A180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEE332823E17A6500D6A180 /* LaunchScreen.storyboard */; };
 		EFEE333223E17E3C00D6A180 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE333123E17E3C00D6A180 /* NewViewController.swift */; };
+		EFEE333423E1817700D6A180 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE333323E1817700D6A180 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EFEE332923E17A6500D6A180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFEE332B23E17A6500D6A180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFEE333123E17E3C00D6A180 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		EFEE333323E1817700D6A180 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 				8C1771CD6729AC756C236E21 /* Pods-RepoApp.debug.xcconfig */,
 				9AF6EAF50B798F75083CAB29 /* Pods-RepoApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +84,7 @@
 				EFEE332823E17A6500D6A180 /* LaunchScreen.storyboard */,
 				EFEE332B23E17A6500D6A180 /* Info.plist */,
 				EFEE333123E17E3C00D6A180 /* NewViewController.swift */,
+				EFEE333323E1817700D6A180 /* Data.swift */,
 			);
 			path = RepoApp;
 			sourceTree = "<group>";
@@ -211,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFEE332223E17A6500D6A180 /* ViewController.swift in Sources */,
+				EFEE333423E1817700D6A180 /* Data.swift in Sources */,
 				EFEE331E23E17A6500D6A180 /* AppDelegate.swift in Sources */,
 				EFEE332023E17A6500D6A180 /* SceneDelegate.swift in Sources */,
 				EFEE333223E17E3C00D6A180 /* NewViewController.swift in Sources */,
